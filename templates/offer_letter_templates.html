@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Offer Letter</title>
+    <style>
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .offer-details {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="text-center">Job Offer Letter</h2>
+    <div class="container">
+    <div class="offer-details">
+        <p><strong>Name:</strong> {{ name }}</p>
+        <p><strong>Position:</strong> {{ position }}</p>
+        <p><strong>Salary:</strong> {{ salary }}</p>
+        <!-- Add any other dynamic fields as needed -->
+    </div>
+    <p>
+        Dear {{ name }},
+    </p>
+    <p>
+        We are pleased to extend an offer of employment for the position of {{ position }} at our company. The details of your employment are as follows:
+    </p>
+    <p>
+        Salary: ${{ salary }}/year<br>
+
+    </p>
+    <p>
+        Please review this offer carefully, and if you accept, sign and return a copy of this letter by the specified date.
+    </p>
+    <p>
+        We are excited to have you join our team and look forward to your contributions. If you have any questions or require further information, please do not hesitate to contact us.
+    </p>
+    <p>
+        Sincerely,<br>
+        Karthik Sai Srivas<br>
+        Iris Tech Developers
+    </p>
+        </div>
+</body>
+</html>
